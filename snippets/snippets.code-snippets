@@ -1,0 +1,238 @@
+{
+    "heading2":{
+       "prefix":"/~h2",
+       "body":[
+          "## "
+       ],
+       "description":""
+    },
+    "heading3":{
+       "prefix":"/~h3",
+       "body":[
+          "### "
+       ],
+       "description":""
+    },
+    "heading4":{
+       "prefix":"/~h4",
+       "body":[
+          "#### "
+       ],
+       "description":""
+    },
+    "heading5":{
+       "prefix":"/~h5",
+       "body":[
+          "##### "
+       ],
+       "description":""
+    },
+    "heading6":{
+       "prefix":"/~h6",
+       "body":[
+          "###### "
+       ],
+       "description":""
+    },
+    "heading1":{
+       "prefix":"/h1",
+       "body":[
+          "# "
+       ],
+       "description":""
+    },
+    "headingid":{
+       "prefix":"/headingid",
+       "body":[
+          "{#custom-id}"
+       ],
+       "description":"Adding custom IDs allows you to link directly to headings. Ex: [Heading IDs](#heading-ids)"
+    },
+    "linebreak":{
+       "prefix":"/linebreak",
+       "body":[
+          "<br> "
+       ],
+       "description":""
+    },
+    "bold":{
+       "prefix":"/bold",
+       "body":[
+          "** **"
+       ],
+       "description":""
+    },
+    "italic":{
+       "prefix":"/italic",
+       "body":[
+          "* *"
+       ],
+       "description":""
+    },
+    "boldanditalic":{
+       "prefix":"/boldanditalic",
+       "body":[
+          "*** ***"
+       ],
+       "description":""
+    },
+    "blockquote":{
+       "prefix":"/blockquote",
+       "body":[
+          "> "
+       ],
+       "description":""
+    },
+    "orderedlist":{
+       "prefix":"/orderedlist",
+       "body":[
+          "1. item1",
+          "2. item2",
+          "3. item3"
+       ],
+       "description":""
+    },
+    "unorderedlist":{
+       "prefix":"/unorderedlist",
+       "body":[
+          "- item1",
+          "- item2",
+          "- item3"
+       ],
+       "description":""
+    },
+    "listDefinitions":{
+       "prefix":"/listDefinitions",
+       "body":[
+          "First Term",
+          ": This is the definition of the first term.",
+          "",
+          "Second Term",
+          ": This is one definition of the second term.",
+          ": This is another definition of the second term."
+       ],
+       "description":""
+    },
+    "codeblock":{
+       "prefix":"/codeblock",
+       "body":[
+          "```",
+          "Your code",
+          "```"
+       ],
+       "description":""
+    },
+    "code":{
+       "prefix":"/code",
+       "body":[
+          "` `"
+       ],
+       "description":""
+    },
+    "image":{
+       "prefix":"/image",
+       "body":[
+          "![alternate text](/assets/images/tux.png)"
+       ],
+       "description":"Ex: ![Sonny and Mariel high fiving.](https://content.codecademy.com/courses/learn-cpp/community-challenge/highfive.gif)"
+    },
+    "imagewithtitle":{
+       "prefix":"/imagewithtitle",
+       "body":[
+          "![Alt Text!](/images/mountains.jpg \"Alternate Title\")"
+       ],
+       "description":"Title will appear as a tooltip when the user hovers over the image. Ex: ![Sonny and Mariel high fiving.](https://content.codecademy.com/courses/learn-cpp/community-challenge/highfive.gif 'High Five')"
+    },
+    "horizontalrule":{
+       "prefix":"/horizontalrule",
+       "body":[
+          "***"
+       ],
+       "description":""
+    },
+    "link":{
+       "prefix":"/link",
+       "body":[
+          "[DuckDuckGo](https://duckduckgo.com)."
+       ],
+       "description":""
+    },
+    "linkwithtitle":{
+       "prefix":"/linkwithtitle",
+       "body":[
+          "[Duck Duck Go](https://duckduckgo.com \"Your Title\")"
+       ],
+       "description":"Title will appear as a tooltip when the user hovers over the link."
+    },
+    "url":{
+       "prefix":"/url",
+       "body":[
+          "< >"
+       ],
+       "description":"Quickly turn a URL or email address into a link"
+    },
+    "strikeThrough":{
+       "prefix":"/strikeThrough",
+       "body":[
+          "~~Your text~~"
+       ],
+       "description":""
+    },
+    "taskLists":{
+       "prefix":"/taskLists",
+       "body":[
+          "- [x] This task is done",
+          "- [ ] This task is not done",
+          "- [ ] This task is not done"
+       ],
+       "description":""
+    },
+    "highlight":{
+       "prefix":"/highlight",
+       "body":[
+          "<mark>Your Text</mark>"
+       ],
+       "description":""
+    },
+    "subscript":{
+       "prefix":"/subscript",
+       "body":[
+          "<sub>text</sub>"
+       ],
+       "description":"This allow you to use subscript to position one or more characters slightly below the normal line of type"
+    },
+    "superscript":{
+       "prefix":"/superscript",
+       "body":[
+          "<sup>text</sup>"
+       ],
+       "description":"This allow you to use superscript to position one or more characters slightly above the normal line of type"
+    },
+    "table1":{
+       "prefix":"/table1",
+       "body":[
+          "| Month    |",
+          "| -------- |",
+          "| January  |"
+       ],
+       "description":"table1"
+    },
+    "table2":{
+       "prefix":"/~table2",
+       "body":[
+          "| Col1     | Col1     |",
+          "| -------- | -------- |",
+          "| Row1     | Row1     |"
+       ],
+       "description":"table2"
+    },
+    "table3":{
+       "prefix":"/~table3",
+       "body":[
+          "| Col1     | Col1     | Col1    |",
+          "| -------- | -------- |-------- |",
+          "| Row1     | Row1     | Row1    |"
+       ],
+       "description":"table3"
+    }
+ }

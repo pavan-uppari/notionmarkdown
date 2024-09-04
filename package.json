@@ -1,0 +1,21 @@
+{
+  "name": "QuickMarkDown",
+  "displayName": "Quick Mark Down",
+  "description": "Inspired from Notion editor",
+  "version": "0.0.4",
+  "publisher": "UppariPavanKalyan",
+  "engines": {
+    "vscode": "^1.92.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "md",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}
