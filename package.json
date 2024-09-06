@@ -2,11 +2,15 @@
   "name": "QuickMarkDown",
   "displayName": "Notion MarkDown",
   "description": "Inspired from Notion editor",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "publisher": "UppariPavanKalyan",
   "engines": {
     "vscode": "^1.92.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pavan-uppari/notionmarkdown"
+},
   "categories": [
     "Snippets"
   ],
