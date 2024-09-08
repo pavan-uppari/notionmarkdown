@@ -1,6 +1,6 @@
 Inspired from Notion editor. Enter `/` to see list of options. 
 
-![Demo GIF](files\demo.gif)
+![Demo GIF](./files/demo.gif)
 
 Available options are
 ## Headings
