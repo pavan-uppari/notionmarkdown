@@ -1,5 +1,8 @@
-Inspired from Notion editor. Enter `/` to see list of options. Available options are
+Inspired from Notion editor. Enter `/` to see list of options. 
 
+![Demo GIF](files\demo.gif)
+
+Available options are
 ## Headings
 
 h1 - Heading 1  

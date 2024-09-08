@@ -4,6 +4,7 @@
   "description": "Inspired from Notion editor",
   "version": "0.0.7",
   "publisher": "UppariPavanKalyan",
+  "icon": "files/logo.png",
   "engines": {
     "vscode": "^1.92.0"
   },
