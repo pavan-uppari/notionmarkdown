@@ -9,17 +9,17 @@ h4 - Heading 4
 h5 - Heading 5  
 h6 - Heading 6  
 
-## headingid
+## headingid ⭐️
 
 Adding custom IDs allows you to link directly to headings.
 
-## tables
+## tables ⭐️
 
 table1 - Table with 1 Column, 1 row  
 table2 - Table with 2 Column, 1 row  
 table3 - Table with 3 Column, 1 row  
 
-To insert extra row, Use <mark>opt + shift</mark> in Mac, <mark> ctrl + alt + ⬇️</mark> in Windows
+To insert extra row, Use `opt + shift` in Mac, `ctrl + alt + ⬇️` in Windows
 
 ## linebreak 
 
@@ -55,17 +55,17 @@ Some Markdown processors allow you to create definition lists of terms and their
 
 ## codeblock
 
-Create a code block (multi line). Use Corresponding language name after \``` for <mark>syntax highlighting</mark>.  
+Create a code block (multi line). Use Corresponding language name after \``` for `syntax highlighting`.  
 
 ## code
 
 Create a code in a single line
 
-## image
+## image ⭐️
 
 Put an image with url (web or local file)
 
-## imagewithtitle 
+## imagewithtitle ⭐️
 
 Put an image with alternate title. Title will appear as a tooltip when the user hovers over the image.
 
@@ -74,11 +74,11 @@ Put an image with alternate title. Title will appear as a tooltip when the user 
 
 Insert an horizontal rule
 
-## link
+## link ⭐️
 
 Create a text with link
 
-## linkwithtitle 
+## linkwithtitle ⭐️
 
 Create link with Title. This title will appear as a tooltip when the user hovers over the link.
 
@@ -94,15 +94,15 @@ Create a strike through text
 
 Create a checkbox list 
 
-## highlight 
+## highlight ⭐️
 
 Create a highlighted text. 
 
-## subscript 
+## subscript ⭐️
 
 This allow you to use subscript to position one or more characters slightly below the normal line of type
 
-## superscript 
+## superscript ⭐️
 
 This allow you to use superscript to position one or more characters slightly above the normal line of type
 
