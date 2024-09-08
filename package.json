@@ -2,7 +2,7 @@
   "name": "QuickMarkDown",
   "displayName": "Notion MarkDown",
   "description": "Inspired from Notion editor",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "publisher": "UppariPavanKalyan",
   "icon": "files/logo.png",
   "engines": {
