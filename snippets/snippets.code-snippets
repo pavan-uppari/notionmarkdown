@@ -5,42 +5,42 @@
 		"body": [
 			"## "
 		],
-		"description": ""
+		"description": "Create heading2"
 	},
 	"heading3": {
 		"prefix": "/~h3",
 		"body": [
 			"### "
 		],
-		"description": ""
+		"description": "Create heading3"
 	},
 	"heading4": {
 		"prefix": "/~h4",
 		"body": [
 			"#### "
 		],
-		"description": ""
+		"description": "Create heading4"
 	},
 	"heading5": {
 		"prefix": "/~h5",
 		"body": [
 			"##### "
 		],
-		"description": ""
+		"description": "Create heading5"
 	},
 	"heading6": {
 		"prefix": "/~h6",
 		"body": [
 			"###### "
 		],
-		"description": ""
+		"description": "Create heading6"
 	},
 	"heading1": {
 		"prefix": "/h1",
 		"body": [
 			"# "
 		],
-		"description": ""
+		"description": "Create heading1"
 	},
 	"headingid": {
 		"prefix": "/headingid",
@@ -55,15 +55,15 @@
 		"body": [
 			"<br> "
 		],
-		"description": ""
+		"description": "Create a linebreak"
 	},
 	// bold and italic
 	"bold": {
 		"prefix": "/bold",
 		"body": [
-			"**$1*" // TODO
+			"**$1*"
 		],
-		"description": ""
+		"description": "Create bold text"
 	},
 	"italic": {
 		"prefix": "/italic",
@@ -77,7 +77,7 @@
 		"body": [
 			"***$1***"
 		],
-		"description": ""
+		"description": "Create bold and italic text"
 	},
 	//blockquote
 	"blockquote": {
@@ -85,7 +85,7 @@
 		"body": [
 			"> "
 		],
-		"description": ""
+		"description": "Create a blockquote"
 	},
 	//list
 	"orderedlist": {
@@ -95,7 +95,7 @@
 			"2. item2",
 			"3. item3"
 		],
-		"description": ""
+		"description": "Create an orderedlist"
 	},
 	"unorderedlist": {
 		"prefix": "/unorderedlist",
@@ -104,7 +104,7 @@
 			"- item2",
 			"- item3"
 		],
-		"description": ""
+		"description": "Create an unordered list"
 	},
 	"listDefinitions": {
 		"prefix": "/listDefinitions",
@@ -116,7 +116,7 @@
 			": This is one definition of the second term.",
 			": This is another definition of the second term."
 		],
-		"description": ""
+		"description": "Create list definitions"
 	},
 	//code
 	"codeblock": {
@@ -126,14 +126,14 @@
 			"Your code$1",
 			"```"
 		],
-		"description": ""
+		"description": "Insert a multiline code block"
 	},
 	"code": {
 		"prefix": "/code",
 		"body": [
 			"`$1`"
 		],
-		"description": ""
+		"description": "Insert a singleline code text"
 	},
 	//image
 	"image": {
@@ -156,7 +156,7 @@
 		"body": [
 			"***"
 		],
-		"description": ""
+		"description": "Insert an horizontal line"
 	},
 	//links
 	"link": {
@@ -187,7 +187,7 @@
 		"body": [
 			"~~Your text$1~~"
 		],
-		"description": ""
+		"description": "Create a strikethrough text"
 	},
 	//tasklists
 	"taskLists": {
@@ -205,7 +205,7 @@
 		"body": [
 			"<mark>Your Text$1</mark>"
 		],
-		"description": ""
+		"description": "Create a highlighted text"
 	},
 	//subscript and superscript
 	"subscript": {
@@ -223,31 +223,1354 @@
 		"description": "This allow you to use superscript to position one or more characters slightly above the normal line of type"
 	},
 	// tables
-	"table1": {
-		"prefix": "/table1",
+	"table1x1": {
+		"prefix": "/table1x1",
 		"body": [
-			"| Month    |",
-			"| -------- |",
-			"| January  |"
+			"| Col1    |",
+			"| ------- |",
+			"| Row1    |"
 		],
-		"description": "table1"
+		"description": "Generate table with 1 rows 1 columns"
 	},
-	"table2": {
-		"prefix": "/~table2",
+	"table2x1": {
+		"prefix": "/~table2x1",
 		"body": [
-			"| Col1     | Col1     |",
-			"| -------- | -------- |",
-			"| Row1     | Row1     |"
+			"| Col1    |",
+			"| ------- |",
+			"| Row1    |",
+			"| Row2    |"
 		],
-		"description": "table2"
+		"description": "Generate table with 2 rows 1 columns"
 	},
-	"table3": {
-		"prefix": "/~table3",
+	"table3x1": {
+		"prefix": "/~table3x1",
 		"body": [
-			"| Col1     | Col1     | Col1    |",
-			"| -------- | -------- |-------- |",
-			"| Row1     | Row1     | Row1    |"
+			"| Col1    |",
+			"| ------- |",
+			"| Row1    |",
+			"| Row2    |",
+			"| Row3    |"
 		],
-		"description": "table3"
+		"description": "Generate table with 3 rows 1 columns"
+	},
+	"table4x1": {
+		"prefix": "/~table4x1",
+		"body": [
+			"| Col1    |",
+			"| ------- |",
+			"| Row1    |",
+			"| Row2    |",
+			"| Row3    |",
+			"| Row4    |"
+		],
+		"description": "Generate table with 4 rows 1 columns"
+	},
+	"table5x1": {
+		"prefix": "/~table5x1",
+		"body": [
+			"| Col1    |",
+			"| ------- |",
+			"| Row1    |",
+			"| Row2    |",
+			"| Row3    |",
+			"| Row4    |",
+			"| Row5    |"
+		],
+		"description": "Generate table with 5 rows 1 columns"
+	},
+	"table6x1": {
+		"prefix": "/~table6x1",
+		"body": [
+			"| Col1    |",
+			"| ------- |",
+			"| Row1    |",
+			"| Row2    |",
+			"| Row3    |",
+			"| Row4    |",
+			"| Row5    |",
+			"| Row6    |"
+		],
+		"description": "Generate table with 6 rows 1 columns"
+	},
+	"table7x1": {
+		"prefix": "/~table7x1",
+		"body": [
+			"| Col1    |",
+			"| ------- |",
+			"| Row1    |",
+			"| Row2    |",
+			"| Row3    |",
+			"| Row4    |",
+			"| Row5    |",
+			"| Row6    |",
+			"| Row7    |"
+		],
+		"description": "Generate table with 7 rows 1 columns"
+	},
+	"table8x1": {
+		"prefix": "/~table8x1",
+		"body": [
+			"| Col1    |",
+			"| ------- |",
+			"| Row1    |",
+			"| Row2    |",
+			"| Row3    |",
+			"| Row4    |",
+			"| Row5    |",
+			"| Row6    |",
+			"| Row7    |",
+			"| Row8    |"
+		],
+		"description": "Generate table with 8 rows 1 columns"
+	},
+	"table9x1": {
+		"prefix": "/~table9x1",
+		"body": [
+			"| Col1    |",
+			"| ------- |",
+			"| Row1    |",
+			"| Row2    |",
+			"| Row3    |",
+			"| Row4    |",
+			"| Row5    |",
+			"| Row6    |",
+			"| Row7    |",
+			"| Row8    |",
+			"| Row9    |"
+		],
+		"description": "Generate table with 9 rows 1 columns"
+	},
+	"table10x1": {
+		"prefix": "/~table10x1",
+		"body": [
+			"| Col1    |",
+			"| ------- |",
+			"| Row1    |",
+			"| Row2    |",
+			"| Row3    |",
+			"| Row4    |",
+			"| Row5    |",
+			"| Row6    |",
+			"| Row7    |",
+			"| Row8    |",
+			"| Row9    |",
+			"| Row10   |"
+		],
+		"description": "Generate table with 10 rows 1 columns"
+	},
+	"table1x2": {
+		"prefix": "/~table1x2",
+		"body": [
+			"| Col1    | Col2    |",
+			"| ------- | ------- |",
+			"| Row1    | Row1    |"
+		],
+		"description": "Generate table with 1 rows 2 columns"
+	},
+	"table2x2": {
+		"prefix": "/~table2x2",
+		"body": [
+			"| Col1    | Col2    |",
+			"| ------- | ------- |",
+			"| Row1    | Row1    |",
+			"| Row2    | Row2    |"
+		],
+		"description": "Generate table with 2 rows 2 columns"
+	},
+	"table3x2": {
+		"prefix": "/~table3x2",
+		"body": [
+			"| Col1    | Col2    |",
+			"| ------- | ------- |",
+			"| Row1    | Row1    |",
+			"| Row2    | Row2    |",
+			"| Row3    | Row3    |"
+		],
+		"description": "Generate table with 3 rows 2 columns"
+	},
+	"table4x2": {
+		"prefix": "/~table4x2",
+		"body": [
+			"| Col1    | Col2    |",
+			"| ------- | ------- |",
+			"| Row1    | Row1    |",
+			"| Row2    | Row2    |",
+			"| Row3    | Row3    |",
+			"| Row4    | Row4    |"
+		],
+		"description": "Generate table with 4 rows 2 columns"
+	},
+	"table5x2": {
+		"prefix": "/~table5x2",
+		"body": [
+			"| Col1    | Col2    |",
+			"| ------- | ------- |",
+			"| Row1    | Row1    |",
+			"| Row2    | Row2    |",
+			"| Row3    | Row3    |",
+			"| Row4    | Row4    |",
+			"| Row5    | Row5    |"
+		],
+		"description": "Generate table with 5 rows 2 columns"
+	},
+	"table6x2": {
+		"prefix": "/~table6x2",
+		"body": [
+			"| Col1    | Col2    |",
+			"| ------- | ------- |",
+			"| Row1    | Row1    |",
+			"| Row2    | Row2    |",
+			"| Row3    | Row3    |",
+			"| Row4    | Row4    |",
+			"| Row5    | Row5    |",
+			"| Row6    | Row6    |"
+		],
+		"description": "Generate table with 6 rows 2 columns"
+	},
+	"table7x2": {
+		"prefix": "/~table7x2",
+		"body": [
+			"| Col1    | Col2    |",
+			"| ------- | ------- |",
+			"| Row1    | Row1    |",
+			"| Row2    | Row2    |",
+			"| Row3    | Row3    |",
+			"| Row4    | Row4    |",
+			"| Row5    | Row5    |",
+			"| Row6    | Row6    |",
+			"| Row7    | Row7    |"
+		],
+		"description": "Generate table with 7 rows 2 columns"
+	},
+	"table8x2": {
+		"prefix": "/~table8x2",
+		"body": [
+			"| Col1    | Col2    |",
+			"| ------- | ------- |",
+			"| Row1    | Row1    |",
+			"| Row2    | Row2    |",
+			"| Row3    | Row3    |",
+			"| Row4    | Row4    |",
+			"| Row5    | Row5    |",
+			"| Row6    | Row6    |",
+			"| Row7    | Row7    |",
+			"| Row8    | Row8    |"
+		],
+		"description": "Generate table with 8 rows 2 columns"
+	},
+	"table9x2": {
+		"prefix": "/~table9x2",
+		"body": [
+			"| Col1    | Col2    |",
+			"| ------- | ------- |",
+			"| Row1    | Row1    |",
+			"| Row2    | Row2    |",
+			"| Row3    | Row3    |",
+			"| Row4    | Row4    |",
+			"| Row5    | Row5    |",
+			"| Row6    | Row6    |",
+			"| Row7    | Row7    |",
+			"| Row8    | Row8    |",
+			"| Row9    | Row9    |"
+		],
+		"description": "Generate table with 9 rows 2 columns"
+	},
+	"table10x2": {
+		"prefix": "/~table10x2",
+		"body": [
+			"| Col1    | Col2    |",
+			"| ------- | ------- |",
+			"| Row1    | Row1    |",
+			"| Row2    | Row2    |",
+			"| Row3    | Row3    |",
+			"| Row4    | Row4    |",
+			"| Row5    | Row5    |",
+			"| Row6    | Row6    |",
+			"| Row7    | Row7    |",
+			"| Row8    | Row8    |",
+			"| Row9    | Row9    |",
+			"| Row10   | Row10   |"
+		],
+		"description": "Generate table with 10 rows 2 columns"
+	},
+	"table1x3": {
+		"prefix": "/~table1x3",
+		"body": [
+			"| Col1    | Col2    | Col3    |",
+			"| ------- | ------- | ------- |",
+			"| Row1    | Row1    | Row1    |"
+		],
+		"description": "Generate table with 1 rows 3 columns"
+	},
+	"table2x3": {
+		"prefix": "/~table2x3",
+		"body": [
+			"| Col1    | Col2    | Col3    |",
+			"| ------- | ------- | ------- |",
+			"| Row1    | Row1    | Row1    |",
+			"| Row2    | Row2    | Row2    |"
+		],
+		"description": "Generate table with 2 rows 3 columns"
+	},
+	"table3x3": {
+		"prefix": "/~table3x3",
+		"body": [
+			"| Col1    | Col2    | Col3    |",
+			"| ------- | ------- | ------- |",
+			"| Row1    | Row1    | Row1    |",
+			"| Row2    | Row2    | Row2    |",
+			"| Row3    | Row3    | Row3    |"
+		],
+		"description": "Generate table with 3 rows 3 columns"
+	},
+	"table4x3": {
+		"prefix": "/~table4x3",
+		"body": [
+			"| Col1    | Col2    | Col3    |",
+			"| ------- | ------- | ------- |",
+			"| Row1    | Row1    | Row1    |",
+			"| Row2    | Row2    | Row2    |",
+			"| Row3    | Row3    | Row3    |",
+			"| Row4    | Row4    | Row4    |"
+		],
+		"description": "Generate table with 4 rows 3 columns"
+	},
+	"table5x3": {
+		"prefix": "/~table5x3",
+		"body": [
+			"| Col1    | Col2    | Col3    |",
+			"| ------- | ------- | ------- |",
+			"| Row1    | Row1    | Row1    |",
+			"| Row2    | Row2    | Row2    |",
+			"| Row3    | Row3    | Row3    |",
+			"| Row4    | Row4    | Row4    |",
+			"| Row5    | Row5    | Row5    |"
+		],
+		"description": "Generate table with 5 rows 3 columns"
+	},
+	"table6x3": {
+		"prefix": "/~table6x3",
+		"body": [
+			"| Col1    | Col2    | Col3    |",
+			"| ------- | ------- | ------- |",
+			"| Row1    | Row1    | Row1    |",
+			"| Row2    | Row2    | Row2    |",
+			"| Row3    | Row3    | Row3    |",
+			"| Row4    | Row4    | Row4    |",
+			"| Row5    | Row5    | Row5    |",
+			"| Row6    | Row6    | Row6    |"
+		],
+		"description": "Generate table with 6 rows 3 columns"
+	},
+	"table7x3": {
+		"prefix": "/~table7x3",
+		"body": [
+			"| Col1    | Col2    | Col3    |",
+			"| ------- | ------- | ------- |",
+			"| Row1    | Row1    | Row1    |",
+			"| Row2    | Row2    | Row2    |",
+			"| Row3    | Row3    | Row3    |",
+			"| Row4    | Row4    | Row4    |",
+			"| Row5    | Row5    | Row5    |",
+			"| Row6    | Row6    | Row6    |",
+			"| Row7    | Row7    | Row7    |"
+		],
+		"description": "Generate table with 7 rows 3 columns"
+	},
+	"table8x3": {
+		"prefix": "/~table8x3",
+		"body": [
+			"| Col1    | Col2    | Col3    |",
+			"| ------- | ------- | ------- |",
+			"| Row1    | Row1    | Row1    |",
+			"| Row2    | Row2    | Row2    |",
+			"| Row3    | Row3    | Row3    |",
+			"| Row4    | Row4    | Row4    |",
+			"| Row5    | Row5    | Row5    |",
+			"| Row6    | Row6    | Row6    |",
+			"| Row7    | Row7    | Row7    |",
+			"| Row8    | Row8    | Row8    |"
+		],
+		"description": "Generate table with 8 rows 3 columns"
+	},
+	"table9x3": {
+		"prefix": "/~table9x3",
+		"body": [
+			"| Col1    | Col2    | Col3    |",
+			"| ------- | ------- | ------- |",
+			"| Row1    | Row1    | Row1    |",
+			"| Row2    | Row2    | Row2    |",
+			"| Row3    | Row3    | Row3    |",
+			"| Row4    | Row4    | Row4    |",
+			"| Row5    | Row5    | Row5    |",
+			"| Row6    | Row6    | Row6    |",
+			"| Row7    | Row7    | Row7    |",
+			"| Row8    | Row8    | Row8    |",
+			"| Row9    | Row9    | Row9    |"
+		],
+		"description": "Generate table with 9 rows 3 columns"
+	},
+	"table10x3": {
+		"prefix": "/~table10x3",
+		"body": [
+			"| Col1    | Col2    | Col3    |",
+			"| ------- | ------- | ------- |",
+			"| Row1    | Row1    | Row1    |",
+			"| Row2    | Row2    | Row2    |",
+			"| Row3    | Row3    | Row3    |",
+			"| Row4    | Row4    | Row4    |",
+			"| Row5    | Row5    | Row5    |",
+			"| Row6    | Row6    | Row6    |",
+			"| Row7    | Row7    | Row7    |",
+			"| Row8    | Row8    | Row8    |",
+			"| Row9    | Row9    | Row9    |",
+			"| Row10   | Row10   | Row10   |"
+		],
+		"description": "Generate table with 10 rows 3 columns"
+	},
+	"table1x4": {
+		"prefix": "/~table1x4",
+		"body": [
+			"| Col1    | Col2    | Col3    | Col4    |",
+			"| ------- | ------- | ------- | ------- |",
+			"| Row1    | Row1    | Row1    | Row1    |"
+		],
+		"description": "Generate table with 1 rows 4 columns"
+	},
+	"table2x4": {
+		"prefix": "/~table2x4",
+		"body": [
+			"| Col1    | Col2    | Col3    | Col4    |",
+			"| ------- | ------- | ------- | ------- |",
+			"| Row1    | Row1    | Row1    | Row1    |",
+			"| Row2    | Row2    | Row2    | Row2    |"
+		],
+		"description": "Generate table with 2 rows 4 columns"
+	},
+	"table3x4": {
+		"prefix": "/~table3x4",
+		"body": [
+			"| Col1    | Col2    | Col3    | Col4    |",
+			"| ------- | ------- | ------- | ------- |",
+			"| Row1    | Row1    | Row1    | Row1    |",
+			"| Row2    | Row2    | Row2    | Row2    |",
+			"| Row3    | Row3    | Row3    | Row3    |"
+		],
+		"description": "Generate table with 3 rows 4 columns"
+	},
+	"table4x4": {
+		"prefix": "/~table4x4",
+		"body": [
+			"| Col1    | Col2    | Col3    | Col4    |",
+			"| ------- | ------- | ------- | ------- |",
+			"| Row1    | Row1    | Row1    | Row1    |",
+			"| Row2    | Row2    | Row2    | Row2    |",
+			"| Row3    | Row3    | Row3    | Row3    |",
+			"| Row4    | Row4    | Row4    | Row4    |"
+		],
+		"description": "Generate table with 4 rows 4 columns"
+	},
+	"table5x4": {
+		"prefix": "/~table5x4",
+		"body": [
+			"| Col1    | Col2    | Col3    | Col4    |",
+			"| ------- | ------- | ------- | ------- |",
+			"| Row1    | Row1    | Row1    | Row1    |",
+			"| Row2    | Row2    | Row2    | Row2    |",
+			"| Row3    | Row3    | Row3    | Row3    |",
+			"| Row4    | Row4    | Row4    | Row4    |",
+			"| Row5    | Row5    | Row5    | Row5    |"
+		],
+		"description": "Generate table with 5 rows 4 columns"
+	},
+	"table6x4": {
+		"prefix": "/~table6x4",
+		"body": [
+			"| Col1    | Col2    | Col3    | Col4    |",
+			"| ------- | ------- | ------- | ------- |",
+			"| Row1    | Row1    | Row1    | Row1    |",
+			"| Row2    | Row2    | Row2    | Row2    |",
+			"| Row3    | Row3    | Row3    | Row3    |",
+			"| Row4    | Row4    | Row4    | Row4    |",
+			"| Row5    | Row5    | Row5    | Row5    |",
+			"| Row6    | Row6    | Row6    | Row6    |"
+		],
+		"description": "Generate table with 6 rows 4 columns"
+	},
+	"table7x4": {
+		"prefix": "/~table7x4",
+		"body": [
+			"| Col1    | Col2    | Col3    | Col4    |",
+			"| ------- | ------- | ------- | ------- |",
+			"| Row1    | Row1    | Row1    | Row1    |",
+			"| Row2    | Row2    | Row2    | Row2    |",
+			"| Row3    | Row3    | Row3    | Row3    |",
+			"| Row4    | Row4    | Row4    | Row4    |",
+			"| Row5    | Row5    | Row5    | Row5    |",
+			"| Row6    | Row6    | Row6    | Row6    |",
+			"| Row7    | Row7    | Row7    | Row7    |"
+		],
+		"description": "Generate table with 7 rows 4 columns"
+	},
+	"table8x4": {
+		"prefix": "/~table8x4",
+		"body": [
+			"| Col1    | Col2    | Col3    | Col4    |",
+			"| ------- | ------- | ------- | ------- |",
+			"| Row1    | Row1    | Row1    | Row1    |",
+			"| Row2    | Row2    | Row2    | Row2    |",
+			"| Row3    | Row3    | Row3    | Row3    |",
+			"| Row4    | Row4    | Row4    | Row4    |",
+			"| Row5    | Row5    | Row5    | Row5    |",
+			"| Row6    | Row6    | Row6    | Row6    |",
+			"| Row7    | Row7    | Row7    | Row7    |",
+			"| Row8    | Row8    | Row8    | Row8    |"
+		],
+		"description": "Generate table with 8 rows 4 columns"
+	},
+	"table9x4": {
+		"prefix": "/~table9x4",
+		"body": [
+			"| Col1    | Col2    | Col3    | Col4    |",
+			"| ------- | ------- | ------- | ------- |",
+			"| Row1    | Row1    | Row1    | Row1    |",
+			"| Row2    | Row2    | Row2    | Row2    |",
+			"| Row3    | Row3    | Row3    | Row3    |",
+			"| Row4    | Row4    | Row4    | Row4    |",
+			"| Row5    | Row5    | Row5    | Row5    |",
+			"| Row6    | Row6    | Row6    | Row6    |",
+			"| Row7    | Row7    | Row7    | Row7    |",
+			"| Row8    | Row8    | Row8    | Row8    |",
+			"| Row9    | Row9    | Row9    | Row9    |"
+		],
+		"description": "Generate table with 9 rows 4 columns"
+	},
+	"table10x4": {
+		"prefix": "/~table10x4",
+		"body": [
+			"| Col1    | Col2    | Col3    | Col4    |",
+			"| ------- | ------- | ------- | ------- |",
+			"| Row1    | Row1    | Row1    | Row1    |",
+			"| Row2    | Row2    | Row2    | Row2    |",
+			"| Row3    | Row3    | Row3    | Row3    |",
+			"| Row4    | Row4    | Row4    | Row4    |",
+			"| Row5    | Row5    | Row5    | Row5    |",
+			"| Row6    | Row6    | Row6    | Row6    |",
+			"| Row7    | Row7    | Row7    | Row7    |",
+			"| Row8    | Row8    | Row8    | Row8    |",
+			"| Row9    | Row9    | Row9    | Row9    |",
+			"| Row10   | Row10   | Row10   | Row10   |"
+		],
+		"description": "Generate table with 10 rows 4 columns"
+	},
+	"table1x5": {
+		"prefix": "/~table1x5",
+		"body": [
+			"| Col1    | Col2    | Col3    | Col4    | Col5    |",
+			"| ------- | ------- | ------- | ------- | ------- |",
+			"| Row1    | Row1    | Row1    | Row1    | Row1    |"
+		],
+		"description": "Generate table with 1 rows 5 columns"
+	},
+	"table2x5": {
+		"prefix": "/~table2x5",
+		"body": [
+			"| Col1    | Col2    | Col3    | Col4    | Col5    |",
+			"| ------- | ------- | ------- | ------- | ------- |",
+			"| Row1    | Row1    | Row1    | Row1    | Row1    |",
+			"| Row2    | Row2    | Row2    | Row2    | Row2    |"
+		],
+		"description": "Generate table with 2 rows 5 columns"
+	},
+	"table3x5": {
+		"prefix": "/~table3x5",
+		"body": [
+			"| Col1    | Col2    | Col3    | Col4    | Col5    |",
+			"| ------- | ------- | ------- | ------- | ------- |",
+			"| Row1    | Row1    | Row1    | Row1    | Row1    |",
+			"| Row2    | Row2    | Row2    | Row2    | Row2    |",
+			"| Row3    | Row3    | Row3    | Row3    | Row3    |"
+		],
+		"description": "Generate table with 3 rows 5 columns"
+	},
+	"table4x5": {
+		"prefix": "/~table4x5",
+		"body": [
+			"| Col1    | Col2    | Col3    | Col4    | Col5    |",
+			"| ------- | ------- | ------- | ------- | ------- |",
+			"| Row1    | Row1    | Row1    | Row1    | Row1    |",
+			"| Row2    | Row2    | Row2    | Row2    | Row2    |",
+			"| Row3    | Row3    | Row3    | Row3    | Row3    |",
+			"| Row4    | Row4    | Row4    | Row4    | Row4    |"
+		],
+		"description": "Generate table with 4 rows 5 columns"
+	},
+	"table5x5": {
+		"prefix": "/~table5x5",
+		"body": [
+			"| Col1    | Col2    | Col3    | Col4    | Col5    |",
+			"| ------- | ------- | ------- | ------- | ------- |",
+			"| Row1    | Row1    | Row1    | Row1    | Row1    |",
+			"| Row2    | Row2    | Row2    | Row2    | Row2    |",
+			"| Row3    | Row3    | Row3    | Row3    | Row3    |",
+			"| Row4    | Row4    | Row4    | Row4    | Row4    |",
+			"| Row5    | Row5    | Row5    | Row5    | Row5    |"
+		],
+		"description": "Generate table with 5 rows 5 columns"
+	},
+	"table6x5": {
+		"prefix": "/~table6x5",
+		"body": [
+			"| Col1    | Col2    | Col3    | Col4    | Col5    |",
+			"| ------- | ------- | ------- | ------- | ------- |",
+			"| Row1    | Row1    | Row1    | Row1    | Row1    |",
+			"| Row2    | Row2    | Row2    | Row2    | Row2    |",
+			"| Row3    | Row3    | Row3    | Row3    | Row3    |",
+			"| Row4    | Row4    | Row4    | Row4    | Row4    |",
+			"| Row5    | Row5    | Row5    | Row5    | Row5    |",
+			"| Row6    | Row6    | Row6    | Row6    | Row6    |"
+		],
+		"description": "Generate table with 6 rows 5 columns"
+	},
+	"table7x5": {
+		"prefix": "/~table7x5",
+		"body": [
+			"| Col1    | Col2    | Col3    | Col4    | Col5    |",
+			"| ------- | ------- | ------- | ------- | ------- |",
+			"| Row1    | Row1    | Row1    | Row1    | Row1    |",
+			"| Row2    | Row2    | Row2    | Row2    | Row2    |",
+			"| Row3    | Row3    | Row3    | Row3    | Row3    |",
+			"| Row4    | Row4    | Row4    | Row4    | Row4    |",
+			"| Row5    | Row5    | Row5    | Row5    | Row5    |",
+			"| Row6    | Row6    | Row6    | Row6    | Row6    |",
+			"| Row7    | Row7    | Row7    | Row7    | Row7    |"
+		],
+		"description": "Generate table with 7 rows 5 columns"
+	},
+	"table8x5": {
+		"prefix": "/~table8x5",
+		"body": [
+			"| Col1    | Col2    | Col3    | Col4    | Col5    |",
+			"| ------- | ------- | ------- | ------- | ------- |",
+			"| Row1    | Row1    | Row1    | Row1    | Row1    |",
+			"| Row2    | Row2    | Row2    | Row2    | Row2    |",
+			"| Row3    | Row3    | Row3    | Row3    | Row3    |",
+			"| Row4    | Row4    | Row4    | Row4    | Row4    |",
+			"| Row5    | Row5    | Row5    | Row5    | Row5    |",
+			"| Row6    | Row6    | Row6    | Row6    | Row6    |",
+			"| Row7    | Row7    | Row7    | Row7    | Row7    |",
+			"| Row8    | Row8    | Row8    | Row8    | Row8    |"
+		],
+		"description": "Generate table with 8 rows 5 columns"
+	},
+	"table9x5": {
+		"prefix": "/~table9x5",
+		"body": [
+			"| Col1    | Col2    | Col3    | Col4    | Col5    |",
+			"| ------- | ------- | ------- | ------- | ------- |",
+			"| Row1    | Row1    | Row1    | Row1    | Row1    |",
+			"| Row2    | Row2    | Row2    | Row2    | Row2    |",
+			"| Row3    | Row3    | Row3    | Row3    | Row3    |",
+			"| Row4    | Row4    | Row4    | Row4    | Row4    |",
+			"| Row5    | Row5    | Row5    | Row5    | Row5    |",
+			"| Row6    | Row6    | Row6    | Row6    | Row6    |",
+			"| Row7    | Row7    | Row7    | Row7    | Row7    |",
+			"| Row8    | Row8    | Row8    | Row8    | Row8    |",
+			"| Row9    | Row9    | Row9    | Row9    | Row9    |"
+		],
+		"description": "Generate table with 9 rows 5 columns"
+	},
+	"table10x5": {
+		"prefix": "/~table10x5",
+		"body": [
+			"| Col1    | Col2    | Col3    | Col4    | Col5    |",
+			"| ------- | ------- | ------- | ------- | ------- |",
+			"| Row1    | Row1    | Row1    | Row1    | Row1    |",
+			"| Row2    | Row2    | Row2    | Row2    | Row2    |",
+			"| Row3    | Row3    | Row3    | Row3    | Row3    |",
+			"| Row4    | Row4    | Row4    | Row4    | Row4    |",
+			"| Row5    | Row5    | Row5    | Row5    | Row5    |",
+			"| Row6    | Row6    | Row6    | Row6    | Row6    |",
+			"| Row7    | Row7    | Row7    | Row7    | Row7    |",
+			"| Row8    | Row8    | Row8    | Row8    | Row8    |",
+			"| Row9    | Row9    | Row9    | Row9    | Row9    |",
+			"| Row10   | Row10   | Row10   | Row10   | Row10   |"
+		],
+		"description": "Generate table with 10 rows 5 columns"
+	},
+	"table1x6": {
+		"prefix": "/~table1x6",
+		"body": [
+			"| Col1    | Col2    | Col3    | Col4    | Col5    | Col6    |",
+			"| ------- | ------- | ------- | ------- | ------- | ------- |",
+			"| Row1    | Row1    | Row1    | Row1    | Row1    | Row1    |"
+		],
+		"description": "Generate table with 1 rows 6 columns"
+	},
+	"table2x6": {
+		"prefix": "/~table2x6",
+		"body": [
+			"| Col1    | Col2    | Col3    | Col4    | Col5    | Col6    |",
+			"| ------- | ------- | ------- | ------- | ------- | ------- |",
+			"| Row1    | Row1    | Row1    | Row1    | Row1    | Row1    |",
+			"| Row2    | Row2    | Row2    | Row2    | Row2    | Row2    |"
+		],
+		"description": "Generate table with 2 rows 6 columns"
+	},
+	"table3x6": {
+		"prefix": "/~table3x6",
+		"body": [
+			"| Col1    | Col2    | Col3    | Col4    | Col5    | Col6    |",
+			"| ------- | ------- | ------- | ------- | ------- | ------- |",
+			"| Row1    | Row1    | Row1    | Row1    | Row1    | Row1    |",
+			"| Row2    | Row2    | Row2    | Row2    | Row2    | Row2    |",
+			"| Row3    | Row3    | Row3    | Row3    | Row3    | Row3    |"
+		],
+		"description": "Generate table with 3 rows 6 columns"
+	},
+	"table4x6": {
+		"prefix": "/~table4x6",
+		"body": [
+			"| Col1    | Col2    | Col3    | Col4    | Col5    | Col6    |",
+			"| ------- | ------- | ------- | ------- | ------- | ------- |",
+			"| Row1    | Row1    | Row1    | Row1    | Row1    | Row1    |",
+			"| Row2    | Row2    | Row2    | Row2    | Row2    | Row2    |",
+			"| Row3    | Row3    | Row3    | Row3    | Row3    | Row3    |",
+			"| Row4    | Row4    | Row4    | Row4    | Row4    | Row4    |"
+		],
+		"description": "Generate table with 4 rows 6 columns"
+	},
+	"table5x6": {
+		"prefix": "/~table5x6",
+		"body": [
+			"| Col1    | Col2    | Col3    | Col4    | Col5    | Col6    |",
+			"| ------- | ------- | ------- | ------- | ------- | ------- |",
+			"| Row1    | Row1    | Row1    | Row1    | Row1    | Row1    |",
+			"| Row2    | Row2    | Row2    | Row2    | Row2    | Row2    |",
+			"| Row3    | Row3    | Row3    | Row3    | Row3    | Row3    |",
+			"| Row4    | Row4    | Row4    | Row4    | Row4    | Row4    |",
+			"| Row5    | Row5    | Row5    | Row5    | Row5    | Row5    |"
+		],
+		"description": "Generate table with 5 rows 6 columns"
+	},
+	"table6x6": {
+		"prefix": "/~table6x6",
+		"body": [
+			"| Col1    | Col2    | Col3    | Col4    | Col5    | Col6    |",
+			"| ------- | ------- | ------- | ------- | ------- | ------- |",
+			"| Row1    | Row1    | Row1    | Row1    | Row1    | Row1    |",
+			"| Row2    | Row2    | Row2    | Row2    | Row2    | Row2    |",
+			"| Row3    | Row3    | Row3    | Row3    | Row3    | Row3    |",
+			"| Row4    | Row4    | Row4    | Row4    | Row4    | Row4    |",
+			"| Row5    | Row5    | Row5    | Row5    | Row5    | Row5    |",
+			"| Row6    | Row6    | Row6    | Row6    | Row6    | Row6    |"
+		],
+		"description": "Generate table with 6 rows 6 columns"
+	},
+	"table7x6": {
+		"prefix": "/~table7x6",
+		"body": [
+			"| Col1    | Col2    | Col3    | Col4    | Col5    | Col6    |",
+			"| ------- | ------- | ------- | ------- | ------- | ------- |",
+			"| Row1    | Row1    | Row1    | Row1    | Row1    | Row1    |",
+			"| Row2    | Row2    | Row2    | Row2    | Row2    | Row2    |",
+			"| Row3    | Row3    | Row3    | Row3    | Row3    | Row3    |",
+			"| Row4    | Row4    | Row4    | Row4    | Row4    | Row4    |",
+			"| Row5    | Row5    | Row5    | Row5    | Row5    | Row5    |",
+			"| Row6    | Row6    | Row6    | Row6    | Row6    | Row6    |",
+			"| Row7    | Row7    | Row7    | Row7    | Row7    | Row7    |"
+		],
+		"description": "Generate table with 7 rows 6 columns"
+	},
+	"table8x6": {
+		"prefix": "/~table8x6",
+		"body": [
+			"| Col1    | Col2    | Col3    | Col4    | Col5    | Col6    |",
+			"| ------- | ------- | ------- | ------- | ------- | ------- |",
+			"| Row1    | Row1    | Row1    | Row1    | Row1    | Row1    |",
+			"| Row2    | Row2    | Row2    | Row2    | Row2    | Row2    |",
+			"| Row3    | Row3    | Row3    | Row3    | Row3    | Row3    |",
+			"| Row4    | Row4    | Row4    | Row4    | Row4    | Row4    |",
+			"| Row5    | Row5    | Row5    | Row5    | Row5    | Row5    |",
+			"| Row6    | Row6    | Row6    | Row6    | Row6    | Row6    |",
+			"| Row7    | Row7    | Row7    | Row7    | Row7    | Row7    |",
+			"| Row8    | Row8    | Row8    | Row8    | Row8    | Row8    |"
+		],
+		"description": "Generate table with 8 rows 6 columns"
+	},
+	"table9x6": {
+		"prefix": "/~table9x6",
+		"body": [
+			"| Col1    | Col2    | Col3    | Col4    | Col5    | Col6    |",
+			"| ------- | ------- | ------- | ------- | ------- | ------- |",
+			"| Row1    | Row1    | Row1    | Row1    | Row1    | Row1    |",
+			"| Row2    | Row2    | Row2    | Row2    | Row2    | Row2    |",
+			"| Row3    | Row3    | Row3    | Row3    | Row3    | Row3    |",
+			"| Row4    | Row4    | Row4    | Row4    | Row4    | Row4    |",
+			"| Row5    | Row5    | Row5    | Row5    | Row5    | Row5    |",
+			"| Row6    | Row6    | Row6    | Row6    | Row6    | Row6    |",
+			"| Row7    | Row7    | Row7    | Row7    | Row7    | Row7    |",
+			"| Row8    | Row8    | Row8    | Row8    | Row8    | Row8    |",
+			"| Row9    | Row9    | Row9    | Row9    | Row9    | Row9    |"
+		],
+		"description": "Generate table with 9 rows 6 columns"
+	},
+	"table10x6": {
+		"prefix": "/~table10x6",
+		"body": [
+			"| Col1    | Col2    | Col3    | Col4    | Col5    | Col6    |",
+			"| ------- | ------- | ------- | ------- | ------- | ------- |",
+			"| Row1    | Row1    | Row1    | Row1    | Row1    | Row1    |",
+			"| Row2    | Row2    | Row2    | Row2    | Row2    | Row2    |",
+			"| Row3    | Row3    | Row3    | Row3    | Row3    | Row3    |",
+			"| Row4    | Row4    | Row4    | Row4    | Row4    | Row4    |",
+			"| Row5    | Row5    | Row5    | Row5    | Row5    | Row5    |",
+			"| Row6    | Row6    | Row6    | Row6    | Row6    | Row6    |",
+			"| Row7    | Row7    | Row7    | Row7    | Row7    | Row7    |",
+			"| Row8    | Row8    | Row8    | Row8    | Row8    | Row8    |",
+			"| Row9    | Row9    | Row9    | Row9    | Row9    | Row9    |",
+			"| Row10   | Row10   | Row10   | Row10   | Row10   | Row10   |"
+		],
+		"description": "Generate table with 10 rows 6 columns"
+	},
+	"table1x7": {
+		"prefix": "/~table1x7",
+		"body": [
+			"| Col1    | Col2    | Col3    | Col4    | Col5    | Col6    | Col7    |",
+			"| ------- | ------- | ------- | ------- | ------- | ------- | ------- |",
+			"| Row1    | Row1    | Row1    | Row1    | Row1    | Row1    | Row1    |"
+		],
+		"description": "Generate table with 1 rows 7 columns"
+	},
+	"table2x7": {
+		"prefix": "/~table2x7",
+		"body": [
+			"| Col1    | Col2    | Col3    | Col4    | Col5    | Col6    | Col7    |",
+			"| ------- | ------- | ------- | ------- | ------- | ------- | ------- |",
+			"| Row1    | Row1    | Row1    | Row1    | Row1    | Row1    | Row1    |",
+			"| Row2    | Row2    | Row2    | Row2    | Row2    | Row2    | Row2    |"
+		],
+		"description": "Generate table with 2 rows 7 columns"
+	},
+	"table3x7": {
+		"prefix": "/~table3x7",
+		"body": [
+			"| Col1    | Col2    | Col3    | Col4    | Col5    | Col6    | Col7    |",
+			"| ------- | ------- | ------- | ------- | ------- | ------- | ------- |",
+			"| Row1    | Row1    | Row1    | Row1    | Row1    | Row1    | Row1    |",
+			"| Row2    | Row2    | Row2    | Row2    | Row2    | Row2    | Row2    |",
+			"| Row3    | Row3    | Row3    | Row3    | Row3    | Row3    | Row3    |"
+		],
+		"description": "Generate table with 3 rows 7 columns"
+	},
+	"table4x7": {
+		"prefix": "/~table4x7",
+		"body": [
+			"| Col1    | Col2    | Col3    | Col4    | Col5    | Col6    | Col7    |",
+			"| ------- | ------- | ------- | ------- | ------- | ------- | ------- |",
+			"| Row1    | Row1    | Row1    | Row1    | Row1    | Row1    | Row1    |",
+			"| Row2    | Row2    | Row2    | Row2    | Row2    | Row2    | Row2    |",
+			"| Row3    | Row3    | Row3    | Row3    | Row3    | Row3    | Row3    |",
+			"| Row4    | Row4    | Row4    | Row4    | Row4    | Row4    | Row4    |"
+		],
+		"description": "Generate table with 4 rows 7 columns"
+	},
+	"table5x7": {
+		"prefix": "/~table5x7",
+		"body": [
+			"| Col1    | Col2    | Col3    | Col4    | Col5    | Col6    | Col7    |",
+			"| ------- | ------- | ------- | ------- | ------- | ------- | ------- |",
+			"| Row1    | Row1    | Row1    | Row1    | Row1    | Row1    | Row1    |",
+			"| Row2    | Row2    | Row2    | Row2    | Row2    | Row2    | Row2    |",
+			"| Row3    | Row3    | Row3    | Row3    | Row3    | Row3    | Row3    |",
+			"| Row4    | Row4    | Row4    | Row4    | Row4    | Row4    | Row4    |",
+			"| Row5    | Row5    | Row5    | Row5    | Row5    | Row5    | Row5    |"
+		],
+		"description": "Generate table with 5 rows 7 columns"
+	},
+	"table6x7": {
+		"prefix": "/~table6x7",
+		"body": [
+			"| Col1    | Col2    | Col3    | Col4    | Col5    | Col6    | Col7    |",
+			"| ------- | ------- | ------- | ------- | ------- | ------- | ------- |",
+			"| Row1    | Row1    | Row1    | Row1    | Row1    | Row1    | Row1    |",
+			"| Row2    | Row2    | Row2    | Row2    | Row2    | Row2    | Row2    |",
+			"| Row3    | Row3    | Row3    | Row3    | Row3    | Row3    | Row3    |",
+			"| Row4    | Row4    | Row4    | Row4    | Row4    | Row4    | Row4    |",
+			"| Row5    | Row5    | Row5    | Row5    | Row5    | Row5    | Row5    |",
+			"| Row6    | Row6    | Row6    | Row6    | Row6    | Row6    | Row6    |"
+		],
+		"description": "Generate table with 6 rows 7 columns"
+	},
+	"table7x7": {
+		"prefix": "/~table7x7",
+		"body": [
+			"| Col1    | Col2    | Col3    | Col4    | Col5    | Col6    | Col7    |",
+			"| ------- | ------- | ------- | ------- | ------- | ------- | ------- |",
+			"| Row1    | Row1    | Row1    | Row1    | Row1    | Row1    | Row1    |",
+			"| Row2    | Row2    | Row2    | Row2    | Row2    | Row2    | Row2    |",
+			"| Row3    | Row3    | Row3    | Row3    | Row3    | Row3    | Row3    |",
+			"| Row4    | Row4    | Row4    | Row4    | Row4    | Row4    | Row4    |",
+			"| Row5    | Row5    | Row5    | Row5    | Row5    | Row5    | Row5    |",
+			"| Row6    | Row6    | Row6    | Row6    | Row6    | Row6    | Row6    |",
+			"| Row7    | Row7    | Row7    | Row7    | Row7    | Row7    | Row7    |"
+		],
+		"description": "Generate table with 7 rows 7 columns"
+	},
+	"table8x7": {
+		"prefix": "/~table8x7",
+		"body": [
+			"| Col1    | Col2    | Col3    | Col4    | Col5    | Col6    | Col7    |",
+			"| ------- | ------- | ------- | ------- | ------- | ------- | ------- |",
+			"| Row1    | Row1    | Row1    | Row1    | Row1    | Row1    | Row1    |",
+			"| Row2    | Row2    | Row2    | Row2    | Row2    | Row2    | Row2    |",
+			"| Row3    | Row3    | Row3    | Row3    | Row3    | Row3    | Row3    |",
+			"| Row4    | Row4    | Row4    | Row4    | Row4    | Row4    | Row4    |",
+			"| Row5    | Row5    | Row5    | Row5    | Row5    | Row5    | Row5    |",
+			"| Row6    | Row6    | Row6    | Row6    | Row6    | Row6    | Row6    |",
+			"| Row7    | Row7    | Row7    | Row7    | Row7    | Row7    | Row7    |",
+			"| Row8    | Row8    | Row8    | Row8    | Row8    | Row8    | Row8    |"
+		],
+		"description": "Generate table with 8 rows 7 columns"
+	},
+	"table9x7": {
+		"prefix": "/~table9x7",
+		"body": [
+			"| Col1    | Col2    | Col3    | Col4    | Col5    | Col6    | Col7    |",
+			"| ------- | ------- | ------- | ------- | ------- | ------- | ------- |",
+			"| Row1    | Row1    | Row1    | Row1    | Row1    | Row1    | Row1    |",
+			"| Row2    | Row2    | Row2    | Row2    | Row2    | Row2    | Row2    |",
+			"| Row3    | Row3    | Row3    | Row3    | Row3    | Row3    | Row3    |",
+			"| Row4    | Row4    | Row4    | Row4    | Row4    | Row4    | Row4    |",
+			"| Row5    | Row5    | Row5    | Row5    | Row5    | Row5    | Row5    |",
+			"| Row6    | Row6    | Row6    | Row6    | Row6    | Row6    | Row6    |",
+			"| Row7    | Row7    | Row7    | Row7    | Row7    | Row7    | Row7    |",
+			"| Row8    | Row8    | Row8    | Row8    | Row8    | Row8    | Row8    |",
+			"| Row9    | Row9    | Row9    | Row9    | Row9    | Row9    | Row9    |"
+		],
+		"description": "Generate table with 9 rows 7 columns"
+	},
+	"table10x7": {
+		"prefix": "/~table10x7",
+		"body": [
+			"| Col1    | Col2    | Col3    | Col4    | Col5    | Col6    | Col7    |",
+			"| ------- | ------- | ------- | ------- | ------- | ------- | ------- |",
+			"| Row1    | Row1    | Row1    | Row1    | Row1    | Row1    | Row1    |",
+			"| Row2    | Row2    | Row2    | Row2    | Row2    | Row2    | Row2    |",
+			"| Row3    | Row3    | Row3    | Row3    | Row3    | Row3    | Row3    |",
+			"| Row4    | Row4    | Row4    | Row4    | Row4    | Row4    | Row4    |",
+			"| Row5    | Row5    | Row5    | Row5    | Row5    | Row5    | Row5    |",
+			"| Row6    | Row6    | Row6    | Row6    | Row6    | Row6    | Row6    |",
+			"| Row7    | Row7    | Row7    | Row7    | Row7    | Row7    | Row7    |",
+			"| Row8    | Row8    | Row8    | Row8    | Row8    | Row8    | Row8    |",
+			"| Row9    | Row9    | Row9    | Row9    | Row9    | Row9    | Row9    |",
+			"| Row10   | Row10   | Row10   | Row10   | Row10   | Row10   | Row10   |"
+		],
+		"description": "Generate table with 10 rows 7 columns"
+	},
+	"table1x8": {
+		"prefix": "/~table1x8",
+		"body": [
+			"| Col1    | Col2    | Col3    | Col4    | Col5    | Col6    | Col7    | Col8    |",
+			"| ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- |",
+			"| Row1    | Row1    | Row1    | Row1    | Row1    | Row1    | Row1    | Row1    |"
+		],
+		"description": "Generate table with 1 rows 8 columns"
+	},
+	"table2x8": {
+		"prefix": "/~table2x8",
+		"body": [
+			"| Col1    | Col2    | Col3    | Col4    | Col5    | Col6    | Col7    | Col8    |",
+			"| ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- |",
+			"| Row1    | Row1    | Row1    | Row1    | Row1    | Row1    | Row1    | Row1    |",
+			"| Row2    | Row2    | Row2    | Row2    | Row2    | Row2    | Row2    | Row2    |"
+		],
+		"description": "Generate table with 2 rows 8 columns"
+	},
+	"table3x8": {
+		"prefix": "/~table3x8",
+		"body": [
+			"| Col1    | Col2    | Col3    | Col4    | Col5    | Col6    | Col7    | Col8    |",
+			"| ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- |",
+			"| Row1    | Row1    | Row1    | Row1    | Row1    | Row1    | Row1    | Row1    |",
+			"| Row2    | Row2    | Row2    | Row2    | Row2    | Row2    | Row2    | Row2    |",
+			"| Row3    | Row3    | Row3    | Row3    | Row3    | Row3    | Row3    | Row3    |"
+		],
+		"description": "Generate table with 3 rows 8 columns"
+	},
+	"table4x8": {
+		"prefix": "/~table4x8",
+		"body": [
+			"| Col1    | Col2    | Col3    | Col4    | Col5    | Col6    | Col7    | Col8    |",
+			"| ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- |",
+			"| Row1    | Row1    | Row1    | Row1    | Row1    | Row1    | Row1    | Row1    |",
+			"| Row2    | Row2    | Row2    | Row2    | Row2    | Row2    | Row2    | Row2    |",
+			"| Row3    | Row3    | Row3    | Row3    | Row3    | Row3    | Row3    | Row3    |",
+			"| Row4    | Row4    | Row4    | Row4    | Row4    | Row4    | Row4    | Row4    |"
+		],
+		"description": "Generate table with 4 rows 8 columns"
+	},
+	"table5x8": {
+		"prefix": "/~table5x8",
+		"body": [
+			"| Col1    | Col2    | Col3    | Col4    | Col5    | Col6    | Col7    | Col8    |",
+			"| ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- |",
+			"| Row1    | Row1    | Row1    | Row1    | Row1    | Row1    | Row1    | Row1    |",
+			"| Row2    | Row2    | Row2    | Row2    | Row2    | Row2    | Row2    | Row2    |",
+			"| Row3    | Row3    | Row3    | Row3    | Row3    | Row3    | Row3    | Row3    |",
+			"| Row4    | Row4    | Row4    | Row4    | Row4    | Row4    | Row4    | Row4    |",
+			"| Row5    | Row5    | Row5    | Row5    | Row5    | Row5    | Row5    | Row5    |"
+		],
+		"description": "Generate table with 5 rows 8 columns"
+	},
+	"table6x8": {
+		"prefix": "/~table6x8",
+		"body": [
+			"| Col1    | Col2    | Col3    | Col4    | Col5    | Col6    | Col7    | Col8    |",
+			"| ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- |",
+			"| Row1    | Row1    | Row1    | Row1    | Row1    | Row1    | Row1    | Row1    |",
+			"| Row2    | Row2    | Row2    | Row2    | Row2    | Row2    | Row2    | Row2    |",
+			"| Row3    | Row3    | Row3    | Row3    | Row3    | Row3    | Row3    | Row3    |",
+			"| Row4    | Row4    | Row4    | Row4    | Row4    | Row4    | Row4    | Row4    |",
+			"| Row5    | Row5    | Row5    | Row5    | Row5    | Row5    | Row5    | Row5    |",
+			"| Row6    | Row6    | Row6    | Row6    | Row6    | Row6    | Row6    | Row6    |"
+		],
+		"description": "Generate table with 6 rows 8 columns"
+	},
+	"table7x8": {
+		"prefix": "/~table7x8",
+		"body": [
+			"| Col1    | Col2    | Col3    | Col4    | Col5    | Col6    | Col7    | Col8    |",
+			"| ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- |",
+			"| Row1    | Row1    | Row1    | Row1    | Row1    | Row1    | Row1    | Row1    |",
+			"| Row2    | Row2    | Row2    | Row2    | Row2    | Row2    | Row2    | Row2    |",
+			"| Row3    | Row3    | Row3    | Row3    | Row3    | Row3    | Row3    | Row3    |",
+			"| Row4    | Row4    | Row4    | Row4    | Row4    | Row4    | Row4    | Row4    |",
+			"| Row5    | Row5    | Row5    | Row5    | Row5    | Row5    | Row5    | Row5    |",
+			"| Row6    | Row6    | Row6    | Row6    | Row6    | Row6    | Row6    | Row6    |",
+			"| Row7    | Row7    | Row7    | Row7    | Row7    | Row7    | Row7    | Row7    |"
+		],
+		"description": "Generate table with 7 rows 8 columns"
+	},
+	"table8x8": {
+		"prefix": "/~table8x8",
+		"body": [
+			"| Col1    | Col2    | Col3    | Col4    | Col5    | Col6    | Col7    | Col8    |",
+			"| ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- |",
+			"| Row1    | Row1    | Row1    | Row1    | Row1    | Row1    | Row1    | Row1    |",
+			"| Row2    | Row2    | Row2    | Row2    | Row2    | Row2    | Row2    | Row2    |",
+			"| Row3    | Row3    | Row3    | Row3    | Row3    | Row3    | Row3    | Row3    |",
+			"| Row4    | Row4    | Row4    | Row4    | Row4    | Row4    | Row4    | Row4    |",
+			"| Row5    | Row5    | Row5    | Row5    | Row5    | Row5    | Row5    | Row5    |",
+			"| Row6    | Row6    | Row6    | Row6    | Row6    | Row6    | Row6    | Row6    |",
+			"| Row7    | Row7    | Row7    | Row7    | Row7    | Row7    | Row7    | Row7    |",
+			"| Row8    | Row8    | Row8    | Row8    | Row8    | Row8    | Row8    | Row8    |"
+		],
+		"description": "Generate table with 8 rows 8 columns"
+	},
+	"table9x8": {
+		"prefix": "/~table9x8",
+		"body": [
+			"| Col1    | Col2    | Col3    | Col4    | Col5    | Col6    | Col7    | Col8    |",
+			"| ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- |",
+			"| Row1    | Row1    | Row1    | Row1    | Row1    | Row1    | Row1    | Row1    |",
+			"| Row2    | Row2    | Row2    | Row2    | Row2    | Row2    | Row2    | Row2    |",
+			"| Row3    | Row3    | Row3    | Row3    | Row3    | Row3    | Row3    | Row3    |",
+			"| Row4    | Row4    | Row4    | Row4    | Row4    | Row4    | Row4    | Row4    |",
+			"| Row5    | Row5    | Row5    | Row5    | Row5    | Row5    | Row5    | Row5    |",
+			"| Row6    | Row6    | Row6    | Row6    | Row6    | Row6    | Row6    | Row6    |",
+			"| Row7    | Row7    | Row7    | Row7    | Row7    | Row7    | Row7    | Row7    |",
+			"| Row8    | Row8    | Row8    | Row8    | Row8    | Row8    | Row8    | Row8    |",
+			"| Row9    | Row9    | Row9    | Row9    | Row9    | Row9    | Row9    | Row9    |"
+		],
+		"description": "Generate table with 9 rows 8 columns"
+	},
+	"table10x8": {
+		"prefix": "/~table10x8",
+		"body": [
+			"| Col1    | Col2    | Col3    | Col4    | Col5    | Col6    | Col7    | Col8    |",
+			"| ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- |",
+			"| Row1    | Row1    | Row1    | Row1    | Row1    | Row1    | Row1    | Row1    |",
+			"| Row2    | Row2    | Row2    | Row2    | Row2    | Row2    | Row2    | Row2    |",
+			"| Row3    | Row3    | Row3    | Row3    | Row3    | Row3    | Row3    | Row3    |",
+			"| Row4    | Row4    | Row4    | Row4    | Row4    | Row4    | Row4    | Row4    |",
+			"| Row5    | Row5    | Row5    | Row5    | Row5    | Row5    | Row5    | Row5    |",
+			"| Row6    | Row6    | Row6    | Row6    | Row6    | Row6    | Row6    | Row6    |",
+			"| Row7    | Row7    | Row7    | Row7    | Row7    | Row7    | Row7    | Row7    |",
+			"| Row8    | Row8    | Row8    | Row8    | Row8    | Row8    | Row8    | Row8    |",
+			"| Row9    | Row9    | Row9    | Row9    | Row9    | Row9    | Row9    | Row9    |",
+			"| Row10   | Row10   | Row10   | Row10   | Row10   | Row10   | Row10   | Row10   |"
+		],
+		"description": "Generate table with 10 rows 8 columns"
+	},
+	"table1x9": {
+		"prefix": "/~table1x9",
+		"body": [
+			"| Col1    | Col2    | Col3    | Col4    | Col5    | Col6    | Col7    | Col8    | Col9    |",
+			"| ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- |",
+			"| Row1    | Row1    | Row1    | Row1    | Row1    | Row1    | Row1    | Row1    | Row1    |"
+		],
+		"description": "Generate table with 1 rows 9 columns"
+	},
+	"table2x9": {
+		"prefix": "/~table2x9",
+		"body": [
+			"| Col1    | Col2    | Col3    | Col4    | Col5    | Col6    | Col7    | Col8    | Col9    |",
+			"| ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- |",
+			"| Row1    | Row1    | Row1    | Row1    | Row1    | Row1    | Row1    | Row1    | Row1    |",
+			"| Row2    | Row2    | Row2    | Row2    | Row2    | Row2    | Row2    | Row2    | Row2    |"
+		],
+		"description": "Generate table with 2 rows 9 columns"
+	},
+	"table3x9": {
+		"prefix": "/~table3x9",
+		"body": [
+			"| Col1    | Col2    | Col3    | Col4    | Col5    | Col6    | Col7    | Col8    | Col9    |",
+			"| ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- |",
+			"| Row1    | Row1    | Row1    | Row1    | Row1    | Row1    | Row1    | Row1    | Row1    |",
+			"| Row2    | Row2    | Row2    | Row2    | Row2    | Row2    | Row2    | Row2    | Row2    |",
+			"| Row3    | Row3    | Row3    | Row3    | Row3    | Row3    | Row3    | Row3    | Row3    |"
+		],
+		"description": "Generate table with 3 rows 9 columns"
+	},
+	"table4x9": {
+		"prefix": "/~table4x9",
+		"body": [
+			"| Col1    | Col2    | Col3    | Col4    | Col5    | Col6    | Col7    | Col8    | Col9    |",
+			"| ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- |",
+			"| Row1    | Row1    | Row1    | Row1    | Row1    | Row1    | Row1    | Row1    | Row1    |",
+			"| Row2    | Row2    | Row2    | Row2    | Row2    | Row2    | Row2    | Row2    | Row2    |",
+			"| Row3    | Row3    | Row3    | Row3    | Row3    | Row3    | Row3    | Row3    | Row3    |",
+			"| Row4    | Row4    | Row4    | Row4    | Row4    | Row4    | Row4    | Row4    | Row4    |"
+		],
+		"description": "Generate table with 4 rows 9 columns"
+	},
+	"table5x9": {
+		"prefix": "/~table5x9",
+		"body": [
+			"| Col1    | Col2    | Col3    | Col4    | Col5    | Col6    | Col7    | Col8    | Col9    |",
+			"| ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- |",
+			"| Row1    | Row1    | Row1    | Row1    | Row1    | Row1    | Row1    | Row1    | Row1    |",
+			"| Row2    | Row2    | Row2    | Row2    | Row2    | Row2    | Row2    | Row2    | Row2    |",
+			"| Row3    | Row3    | Row3    | Row3    | Row3    | Row3    | Row3    | Row3    | Row3    |",
+			"| Row4    | Row4    | Row4    | Row4    | Row4    | Row4    | Row4    | Row4    | Row4    |",
+			"| Row5    | Row5    | Row5    | Row5    | Row5    | Row5    | Row5    | Row5    | Row5    |"
+		],
+		"description": "Generate table with 5 rows 9 columns"
+	},
+	"table6x9": {
+		"prefix": "/~table6x9",
+		"body": [
+			"| Col1    | Col2    | Col3    | Col4    | Col5    | Col6    | Col7    | Col8    | Col9    |",
+			"| ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- |",
+			"| Row1    | Row1    | Row1    | Row1    | Row1    | Row1    | Row1    | Row1    | Row1    |",
+			"| Row2    | Row2    | Row2    | Row2    | Row2    | Row2    | Row2    | Row2    | Row2    |",
+			"| Row3    | Row3    | Row3    | Row3    | Row3    | Row3    | Row3    | Row3    | Row3    |",
+			"| Row4    | Row4    | Row4    | Row4    | Row4    | Row4    | Row4    | Row4    | Row4    |",
+			"| Row5    | Row5    | Row5    | Row5    | Row5    | Row5    | Row5    | Row5    | Row5    |",
+			"| Row6    | Row6    | Row6    | Row6    | Row6    | Row6    | Row6    | Row6    | Row6    |"
+		],
+		"description": "Generate table with 6 rows 9 columns"
+	},
+	"table7x9": {
+		"prefix": "/~table7x9",
+		"body": [
+			"| Col1    | Col2    | Col3    | Col4    | Col5    | Col6    | Col7    | Col8    | Col9    |",
+			"| ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- |",
+			"| Row1    | Row1    | Row1    | Row1    | Row1    | Row1    | Row1    | Row1    | Row1    |",
+			"| Row2    | Row2    | Row2    | Row2    | Row2    | Row2    | Row2    | Row2    | Row2    |",
+			"| Row3    | Row3    | Row3    | Row3    | Row3    | Row3    | Row3    | Row3    | Row3    |",
+			"| Row4    | Row4    | Row4    | Row4    | Row4    | Row4    | Row4    | Row4    | Row4    |",
+			"| Row5    | Row5    | Row5    | Row5    | Row5    | Row5    | Row5    | Row5    | Row5    |",
+			"| Row6    | Row6    | Row6    | Row6    | Row6    | Row6    | Row6    | Row6    | Row6    |",
+			"| Row7    | Row7    | Row7    | Row7    | Row7    | Row7    | Row7    | Row7    | Row7    |"
+		],
+		"description": "Generate table with 7 rows 9 columns"
+	},
+	"table8x9": {
+		"prefix": "/~table8x9",
+		"body": [
+			"| Col1    | Col2    | Col3    | Col4    | Col5    | Col6    | Col7    | Col8    | Col9    |",
+			"| ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- |",
+			"| Row1    | Row1    | Row1    | Row1    | Row1    | Row1    | Row1    | Row1    | Row1    |",
+			"| Row2    | Row2    | Row2    | Row2    | Row2    | Row2    | Row2    | Row2    | Row2    |",
+			"| Row3    | Row3    | Row3    | Row3    | Row3    | Row3    | Row3    | Row3    | Row3    |",
+			"| Row4    | Row4    | Row4    | Row4    | Row4    | Row4    | Row4    | Row4    | Row4    |",
+			"| Row5    | Row5    | Row5    | Row5    | Row5    | Row5    | Row5    | Row5    | Row5    |",
+			"| Row6    | Row6    | Row6    | Row6    | Row6    | Row6    | Row6    | Row6    | Row6    |",
+			"| Row7    | Row7    | Row7    | Row7    | Row7    | Row7    | Row7    | Row7    | Row7    |",
+			"| Row8    | Row8    | Row8    | Row8    | Row8    | Row8    | Row8    | Row8    | Row8    |"
+		],
+		"description": "Generate table with 8 rows 9 columns"
+	},
+	"table9x9": {
+		"prefix": "/~table9x9",
+		"body": [
+			"| Col1    | Col2    | Col3    | Col4    | Col5    | Col6    | Col7    | Col8    | Col9    |",
+			"| ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- |",
+			"| Row1    | Row1    | Row1    | Row1    | Row1    | Row1    | Row1    | Row1    | Row1    |",
+			"| Row2    | Row2    | Row2    | Row2    | Row2    | Row2    | Row2    | Row2    | Row2    |",
+			"| Row3    | Row3    | Row3    | Row3    | Row3    | Row3    | Row3    | Row3    | Row3    |",
+			"| Row4    | Row4    | Row4    | Row4    | Row4    | Row4    | Row4    | Row4    | Row4    |",
+			"| Row5    | Row5    | Row5    | Row5    | Row5    | Row5    | Row5    | Row5    | Row5    |",
+			"| Row6    | Row6    | Row6    | Row6    | Row6    | Row6    | Row6    | Row6    | Row6    |",
+			"| Row7    | Row7    | Row7    | Row7    | Row7    | Row7    | Row7    | Row7    | Row7    |",
+			"| Row8    | Row8    | Row8    | Row8    | Row8    | Row8    | Row8    | Row8    | Row8    |",
+			"| Row9    | Row9    | Row9    | Row9    | Row9    | Row9    | Row9    | Row9    | Row9    |"
+		],
+		"description": "Generate table with 9 rows 9 columns"
+	},
+	"table10x9": {
+		"prefix": "/~table10x9",
+		"body": [
+			"| Col1    | Col2    | Col3    | Col4    | Col5    | Col6    | Col7    | Col8    | Col9    |",
+			"| ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- |",
+			"| Row1    | Row1    | Row1    | Row1    | Row1    | Row1    | Row1    | Row1    | Row1    |",
+			"| Row2    | Row2    | Row2    | Row2    | Row2    | Row2    | Row2    | Row2    | Row2    |",
+			"| Row3    | Row3    | Row3    | Row3    | Row3    | Row3    | Row3    | Row3    | Row3    |",
+			"| Row4    | Row4    | Row4    | Row4    | Row4    | Row4    | Row4    | Row4    | Row4    |",
+			"| Row5    | Row5    | Row5    | Row5    | Row5    | Row5    | Row5    | Row5    | Row5    |",
+			"| Row6    | Row6    | Row6    | Row6    | Row6    | Row6    | Row6    | Row6    | Row6    |",
+			"| Row7    | Row7    | Row7    | Row7    | Row7    | Row7    | Row7    | Row7    | Row7    |",
+			"| Row8    | Row8    | Row8    | Row8    | Row8    | Row8    | Row8    | Row8    | Row8    |",
+			"| Row9    | Row9    | Row9    | Row9    | Row9    | Row9    | Row9    | Row9    | Row9    |",
+			"| Row10   | Row10   | Row10   | Row10   | Row10   | Row10   | Row10   | Row10   | Row10   |"
+		],
+		"description": "Generate table with 10 rows 9 columns"
+	},
+	"table1x10": {
+		"prefix": "/~table1x10",
+		"body": [
+			"| Col1    | Col2    | Col3    | Col4    | Col5    | Col6    | Col7    | Col8    | Col9    | Col10   |",
+			"| ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- |",
+			"| Row1    | Row1    | Row1    | Row1    | Row1    | Row1    | Row1    | Row1    | Row1    | Row1    |"
+		],
+		"description": "Generate table with 1 rows 10 columns"
+	},
+	"table2x10": {
+		"prefix": "/~table2x10",
+		"body": [
+			"| Col1    | Col2    | Col3    | Col4    | Col5    | Col6    | Col7    | Col8    | Col9    | Col10   |",
+			"| ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- |",
+			"| Row1    | Row1    | Row1    | Row1    | Row1    | Row1    | Row1    | Row1    | Row1    | Row1    |",
+			"| Row2    | Row2    | Row2    | Row2    | Row2    | Row2    | Row2    | Row2    | Row2    | Row2    |"
+		],
+		"description": "Generate table with 2 rows 10 columns"
+	},
+	"table3x10": {
+		"prefix": "/~table3x10",
+		"body": [
+			"| Col1    | Col2    | Col3    | Col4    | Col5    | Col6    | Col7    | Col8    | Col9    | Col10   |",
+			"| ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- |",
+			"| Row1    | Row1    | Row1    | Row1    | Row1    | Row1    | Row1    | Row1    | Row1    | Row1    |",
+			"| Row2    | Row2    | Row2    | Row2    | Row2    | Row2    | Row2    | Row2    | Row2    | Row2    |",
+			"| Row3    | Row3    | Row3    | Row3    | Row3    | Row3    | Row3    | Row3    | Row3    | Row3    |"
+		],
+		"description": "Generate table with 3 rows 10 columns"
+	},
+	"table4x10": {
+		"prefix": "/~table4x10",
+		"body": [
+			"| Col1    | Col2    | Col3    | Col4    | Col5    | Col6    | Col7    | Col8    | Col9    | Col10   |",
+			"| ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- |",
+			"| Row1    | Row1    | Row1    | Row1    | Row1    | Row1    | Row1    | Row1    | Row1    | Row1    |",
+			"| Row2    | Row2    | Row2    | Row2    | Row2    | Row2    | Row2    | Row2    | Row2    | Row2    |",
+			"| Row3    | Row3    | Row3    | Row3    | Row3    | Row3    | Row3    | Row3    | Row3    | Row3    |",
+			"| Row4    | Row4    | Row4    | Row4    | Row4    | Row4    | Row4    | Row4    | Row4    | Row4    |"
+		],
+		"description": "Generate table with 4 rows 10 columns"
+	},
+	"table5x10": {
+		"prefix": "/~table5x10",
+		"body": [
+			"| Col1    | Col2    | Col3    | Col4    | Col5    | Col6    | Col7    | Col8    | Col9    | Col10   |",
+			"| ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- |",
+			"| Row1    | Row1    | Row1    | Row1    | Row1    | Row1    | Row1    | Row1    | Row1    | Row1    |",
+			"| Row2    | Row2    | Row2    | Row2    | Row2    | Row2    | Row2    | Row2    | Row2    | Row2    |",
+			"| Row3    | Row3    | Row3    | Row3    | Row3    | Row3    | Row3    | Row3    | Row3    | Row3    |",
+			"| Row4    | Row4    | Row4    | Row4    | Row4    | Row4    | Row4    | Row4    | Row4    | Row4    |",
+			"| Row5    | Row5    | Row5    | Row5    | Row5    | Row5    | Row5    | Row5    | Row5    | Row5    |"
+		],
+		"description": "Generate table with 5 rows 10 columns"
+	},
+	"table6x10": {
+		"prefix": "/~table6x10",
+		"body": [
+			"| Col1    | Col2    | Col3    | Col4    | Col5    | Col6    | Col7    | Col8    | Col9    | Col10   |",
+			"| ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- |",
+			"| Row1    | Row1    | Row1    | Row1    | Row1    | Row1    | Row1    | Row1    | Row1    | Row1    |",
+			"| Row2    | Row2    | Row2    | Row2    | Row2    | Row2    | Row2    | Row2    | Row2    | Row2    |",
+			"| Row3    | Row3    | Row3    | Row3    | Row3    | Row3    | Row3    | Row3    | Row3    | Row3    |",
+			"| Row4    | Row4    | Row4    | Row4    | Row4    | Row4    | Row4    | Row4    | Row4    | Row4    |",
+			"| Row5    | Row5    | Row5    | Row5    | Row5    | Row5    | Row5    | Row5    | Row5    | Row5    |",
+			"| Row6    | Row6    | Row6    | Row6    | Row6    | Row6    | Row6    | Row6    | Row6    | Row6    |"
+		],
+		"description": "Generate table with 6 rows 10 columns"
+	},
+	"table7x10": {
+		"prefix": "/~table7x10",
+		"body": [
+			"| Col1    | Col2    | Col3    | Col4    | Col5    | Col6    | Col7    | Col8    | Col9    | Col10   |",
+			"| ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- |",
+			"| Row1    | Row1    | Row1    | Row1    | Row1    | Row1    | Row1    | Row1    | Row1    | Row1    |",
+			"| Row2    | Row2    | Row2    | Row2    | Row2    | Row2    | Row2    | Row2    | Row2    | Row2    |",
+			"| Row3    | Row3    | Row3    | Row3    | Row3    | Row3    | Row3    | Row3    | Row3    | Row3    |",
+			"| Row4    | Row4    | Row4    | Row4    | Row4    | Row4    | Row4    | Row4    | Row4    | Row4    |",
+			"| Row5    | Row5    | Row5    | Row5    | Row5    | Row5    | Row5    | Row5    | Row5    | Row5    |",
+			"| Row6    | Row6    | Row6    | Row6    | Row6    | Row6    | Row6    | Row6    | Row6    | Row6    |",
+			"| Row7    | Row7    | Row7    | Row7    | Row7    | Row7    | Row7    | Row7    | Row7    | Row7    |"
+		],
+		"description": "Generate table with 7 rows 10 columns"
+	},
+	"table8x10": {
+		"prefix": "/~table8x10",
+		"body": [
+			"| Col1    | Col2    | Col3    | Col4    | Col5    | Col6    | Col7    | Col8    | Col9    | Col10   |",
+			"| ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- |",
+			"| Row1    | Row1    | Row1    | Row1    | Row1    | Row1    | Row1    | Row1    | Row1    | Row1    |",
+			"| Row2    | Row2    | Row2    | Row2    | Row2    | Row2    | Row2    | Row2    | Row2    | Row2    |",
+			"| Row3    | Row3    | Row3    | Row3    | Row3    | Row3    | Row3    | Row3    | Row3    | Row3    |",
+			"| Row4    | Row4    | Row4    | Row4    | Row4    | Row4    | Row4    | Row4    | Row4    | Row4    |",
+			"| Row5    | Row5    | Row5    | Row5    | Row5    | Row5    | Row5    | Row5    | Row5    | Row5    |",
+			"| Row6    | Row6    | Row6    | Row6    | Row6    | Row6    | Row6    | Row6    | Row6    | Row6    |",
+			"| Row7    | Row7    | Row7    | Row7    | Row7    | Row7    | Row7    | Row7    | Row7    | Row7    |",
+			"| Row8    | Row8    | Row8    | Row8    | Row8    | Row8    | Row8    | Row8    | Row8    | Row8    |"
+		],
+		"description": "Generate table with 8 rows 10 columns"
+	},
+	"table9x10": {
+		"prefix": "/~table9x10",
+		"body": [
+			"| Col1    | Col2    | Col3    | Col4    | Col5    | Col6    | Col7    | Col8    | Col9    | Col10   |",
+			"| ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- |",
+			"| Row1    | Row1    | Row1    | Row1    | Row1    | Row1    | Row1    | Row1    | Row1    | Row1    |",
+			"| Row2    | Row2    | Row2    | Row2    | Row2    | Row2    | Row2    | Row2    | Row2    | Row2    |",
+			"| Row3    | Row3    | Row3    | Row3    | Row3    | Row3    | Row3    | Row3    | Row3    | Row3    |",
+			"| Row4    | Row4    | Row4    | Row4    | Row4    | Row4    | Row4    | Row4    | Row4    | Row4    |",
+			"| Row5    | Row5    | Row5    | Row5    | Row5    | Row5    | Row5    | Row5    | Row5    | Row5    |",
+			"| Row6    | Row6    | Row6    | Row6    | Row6    | Row6    | Row6    | Row6    | Row6    | Row6    |",
+			"| Row7    | Row7    | Row7    | Row7    | Row7    | Row7    | Row7    | Row7    | Row7    | Row7    |",
+			"| Row8    | Row8    | Row8    | Row8    | Row8    | Row8    | Row8    | Row8    | Row8    | Row8    |",
+			"| Row9    | Row9    | Row9    | Row9    | Row9    | Row9    | Row9    | Row9    | Row9    | Row9    |"
+		],
+		"description": "Generate table with 9 rows 10 columns"
+	},
+	"table10x10": {
+		"prefix": "/~table10x10",
+		"body": [
+			"| Col1    | Col2    | Col3    | Col4    | Col5    | Col6    | Col7    | Col8    | Col9    | Col10   |",
+			"| ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- |",
+			"| Row1    | Row1    | Row1    | Row1    | Row1    | Row1    | Row1    | Row1    | Row1    | Row1    |",
+			"| Row2    | Row2    | Row2    | Row2    | Row2    | Row2    | Row2    | Row2    | Row2    | Row2    |",
+			"| Row3    | Row3    | Row3    | Row3    | Row3    | Row3    | Row3    | Row3    | Row3    | Row3    |",
+			"| Row4    | Row4    | Row4    | Row4    | Row4    | Row4    | Row4    | Row4    | Row4    | Row4    |",
+			"| Row5    | Row5    | Row5    | Row5    | Row5    | Row5    | Row5    | Row5    | Row5    | Row5    |",
+			"| Row6    | Row6    | Row6    | Row6    | Row6    | Row6    | Row6    | Row6    | Row6    | Row6    |",
+			"| Row7    | Row7    | Row7    | Row7    | Row7    | Row7    | Row7    | Row7    | Row7    | Row7    |",
+			"| Row8    | Row8    | Row8    | Row8    | Row8    | Row8    | Row8    | Row8    | Row8    | Row8    |",
+			"| Row9    | Row9    | Row9    | Row9    | Row9    | Row9    | Row9    | Row9    | Row9    | Row9    |",
+			"| Row10   | Row10   | Row10   | Row10   | Row10   | Row10   | Row10   | Row10   | Row10   | Row10   |"
+		],
+		"description": "Generate table with 10 rows 10 columns"
 	}
 }
